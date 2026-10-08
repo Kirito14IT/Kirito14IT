@@ -14,15 +14,9 @@
 </p>
 
 <p align="center">
-  <a href="https://kirito14it.github.io/" target="_blank">
-    <img alt="Academic Homepage" src="https://kirito14it.github.io/github-profile/academic-homepage-neon.svg" width="260" height="44" />
-  </a>
-  <a href="https://scholar.google.com/citations?user=MyweXYYAAAAJ" target="_blank">
-    <img alt="Google Scholar" src="https://kirito14it.github.io/github-profile/google-scholar-neon.svg" width="232" height="44" />
-  </a>
-  <a href="mailto:2657751462@qq.com">
-    <img alt="Email" src="https://kirito14it.github.io/github-profile/email-neon.svg" width="156" height="44" />
-  </a>
+  <a href="https://kirito14it.github.io/" target="_blank"><img alt="Academic Homepage" src="https://kirito14it.github.io/github-profile/academic-homepage-neon.svg" width="260" height="44" /></a>
+  <a href="https://scholar.google.com/citations?user=MyweXYYAAAAJ" target="_blank"><img alt="Google Scholar" src="https://kirito14it.github.io/github-profile/google-scholar-neon.svg" width="232" height="44" /></a>
+  <a href="mailto:2657751462@qq.com"><img alt="Email" src="https://kirito14it.github.io/github-profile/email-neon.svg" width="156" height="44" /></a>
 </p>
 
 <p align="center">
