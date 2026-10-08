@@ -51,5 +51,5 @@ def encode(kind, filename):
 
 
 if __name__ == "__main__":
-    encode("header", "research-orbit.gif")
-    encode("footer", "signal-flow.gif")
+    encode("header", "research-orbit-neon.gif")
+    encode("footer", "signal-flow-neon.gif")

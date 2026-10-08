@@ -11,6 +11,6 @@ python scripts/encode-profile.py
 
 The generator renders 80 frames at 1200 pixels wide. The encoder uses a shared palette, checks for visible motion and a smooth loop, and enforces a 5 MB budget per image. Intermediate PNGs in `output/` are ignored by Git.
 
-`assets/research-orbit.svg` is an editable static vector version of the banner. Update the text and visual parameters in `scripts/render-profile.cjs` before regenerating the published GIFs.
+`assets/research-orbit-neon.svg` is an editable static vector version of the banner. Update the text and visual parameters in `scripts/render-profile.cjs` before regenerating the published GIFs. The neon version uses cyan, violet, pink, amber and blue for its particle clusters, moving orbital trails and signal paths.
 
-After regeneration, copy both GIFs to `public/github-profile/` in the `Kirito14IT.github.io` repository and deploy that site.
+After regeneration, copy `research-orbit-neon.gif` and `signal-flow-neon.gif` to `public/github-profile/` in the `Kirito14IT.github.io` repository and deploy that site. Earlier non-neon assets are retained as the original version.

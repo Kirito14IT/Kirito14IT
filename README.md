@@ -1,26 +1,27 @@
 <p align="center">
   <a href="https://kirito14it.github.io/">
-    <img src="https://kirito14it.github.io/github-profile/research-orbit.gif" width="1200" alt="Zhihua Wang / Krico. AI Safety, LLM Agents, Software Security. Animated orbital network and flowing signals." />
+    <img src="https://kirito14it.github.io/github-profile/research-orbit-neon.gif" width="1200" alt="Zhihua Wang / Krico. AI Safety, LLM Agents, Software Security. Animated multicolor neon network, orbital trails and flowing signals." />
   </a>
 </p>
 
 <p align="center">
   <strong>Zhihua Wang</strong><br />
-  Junior Undergraduate in Computer Science and Technology<br />
+  Senior Undergraduate in Computer Science and Technology<br />
   University of Shanghai for Science and Technology<br /><br />
   <strong>Incoming M.Sc. Student, Fudan University (2027)</strong><br />
-  Advisor: <a href="http://xingjunma.com/">Xingjun Ma</a>
+  Advisor: <a href="http://xingjunma.com/">Xingjun Ma</a><br />
+  Lab: <a href="https://fvl.fudan.edu.cn/" title="Fudan Vision and Learning Laboratory">Fudan FVL</a>
 </p>
 
 <p align="center">
   <a href="https://kirito14it.github.io/" target="_blank">
-    <img alt="Academic Homepage" src="https://img.shields.io/badge/Academic%20Homepage-Krico-00C77B?style=for-the-badge&labelColor=0B1726&logo=githubpages&logoColor=white" />
+    <img alt="Academic Homepage" src="https://img.shields.io/badge/Academic%20Homepage-Krico-00B8CF?style=for-the-badge&labelColor=0B1726&logo=githubpages&logoColor=white" />
   </a>
   <a href="https://scholar.google.com/citations?user=MyweXYYAAAAJ" target="_blank">
-    <img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-Krico-00A86B?style=for-the-badge&labelColor=0B1726&logo=googlescholar&logoColor=white" />
+    <img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-Krico-9457EB?style=for-the-badge&labelColor=0B1726&logo=googlescholar&logoColor=white" />
   </a>
   <a href="mailto:2657751462@qq.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-Contact-FFB000?style=for-the-badge&labelColor=0B1726&logo=gmail&logoColor=white" />
+    <img alt="Email" src="https://img.shields.io/badge/Email-Contact-EA408B?style=for-the-badge&labelColor=0B1726&logo=gmail&logoColor=white" />
   </a>
 </p>
 
@@ -54,5 +55,5 @@
 </p>
 
 <p align="center">
-  <img src="https://kirito14it.github.io/github-profile/signal-flow.gif" width="1200" alt="" />
+  <img src="https://kirito14it.github.io/github-profile/signal-flow-neon.gif" width="1200" alt="" />
 </p>
