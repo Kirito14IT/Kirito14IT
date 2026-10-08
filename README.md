@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://kirito14it.github.io/">
-    <img src="assets/research-orbit.gif" width="1200" alt="Zhihua Wang / Krico. AI Safety, LLM Agents, Software Security. Animated orbital network and flowing signals." />
+    <img src="https://kirito14it.github.io/github-profile/research-orbit.gif" width="1200" alt="Zhihua Wang / Krico. AI Safety, LLM Agents, Software Security. Animated orbital network and flowing signals." />
   </a>
 </p>
 
@@ -54,5 +54,5 @@
 </p>
 
 <p align="center">
-  <img src="assets/signal-flow.gif" width="1200" alt="" />
+  <img src="https://kirito14it.github.io/github-profile/signal-flow.gif" width="1200" alt="" />
 </p>
