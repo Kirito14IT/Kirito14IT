@@ -19,7 +19,15 @@ def encode(kind, filename):
     contact = Image.new("RGB", (width, height * 4))
     for i, index in enumerate((0, 20, 40, 60)):
         contact.paste(frames[index], (0, height * i))
-    palette = contact.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
+    palette = contact.quantize(colors=232, method=Image.Quantize.MEDIANCUT)
+    # Reserve highlights so the large dark background cannot desaturate neon trails.
+    neon = [(0, 240, 255), (168, 121, 255), (255, 77, 166), (255, 179, 71), (87, 155, 255)]
+    highlights = [tuple(round(c * strength) for c in color)
+                  for strength in (0.45, 0.7, 1.0) for color in neon]
+    highlights += [(244, 241, 255), (152, 234, 255), (192, 250, 255),
+                   (182, 187, 218), (214, 202, 255), (8, 11, 25),
+                   (22, 11, 39), (7, 30, 43), (16, 14, 37)]
+    palette.putpalette(palette.getpalette()[:232 * 3] + [c for color in highlights for c in color])
     indexed = [frame.quantize(palette=palette, dither=Image.Dither.NONE) for frame in frames]
 
     target = ROOT / "assets" / filename
