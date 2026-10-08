@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="44" viewBox="0 0 232 44" role="img" aria-label="Google Scholar">
+  <title>Google Scholar</title>
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="0.9"><stop stop-color="#7032d9"/><stop offset="1" stop-color="#b02c99"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="white" stop-opacity="0.2"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#b1f6ff"/><stop offset="0.55" stop-color="#f5c5ff"/><stop offset="1" stop-color="#ffc7ba"/></linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="231" height="43" rx="10" fill="url(#face)"/>
+  <rect x="0.5" y="0.5" width="231" height="22" rx="10" fill="url(#shine)"/>
+  <rect x="1" y="1" width="230" height="42" rx="9.5" fill="none" stroke="url(#edge)" stroke-opacity="0.7"/>
+  <path d="M12 41H220" stroke="white" stroke-opacity="0.13"/>
+  <circle cx="25" cy="22" r="16" fill="white" fill-opacity="0.1"/>
+  <g transform="translate(13 10)" fill="none" stroke="white" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" fill="white" stroke="none"/></g>
+  <text x="50" y="27.5" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">Google Scholar</text>
+  <path d="M209 25L216 18M209 18H216V25" fill="none" stroke="white" stroke-width="1.6" stroke-opacity="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>

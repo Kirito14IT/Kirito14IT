@@ -1,6 +1,7 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const sharp = require('sharp');
+const { createCanvas, GlobalFonts } = require('@napi-rs/canvas');
 
 const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'output', 'profile');
@@ -10,6 +11,26 @@ const tau = Math.PI * 2;
 const colors = ['#00f0ff', '#a879ff', '#ff4da6', '#ffb347', '#579bff'];
 const cyan = colors[0];
 const pink = colors[2];
+const emojiFont = process.env.PROFILE_EMOJI_FONT || 'C:/Windows/Fonts/seguiemj.ttf';
+if (!GlobalFonts.registerFromPath(emojiFont, 'Profile Emoji')) {
+  throw new Error(`Cannot register the color emoji font: ${emojiFont}`);
+}
+
+function emojiImage(codepoint) {
+  const canvas = createCanvas(160, 160);
+  const context = canvas.getContext('2d');
+  context.font = '128px "Profile Emoji"';
+  context.textAlign = 'center';
+  context.textBaseline = 'middle';
+  context.fillText(String.fromCodePoint(codepoint), 80, 80);
+  return `data:image/png;base64,${canvas.toBuffer('image/png').toString('base64')}`;
+}
+
+const emoji = {
+  handshake: emojiImage(0x1f91d),
+  sparkle: emojiImage(0x2728),
+  planet: emojiImage(0x1fa90),
+};
 
 function orbit(theta, rotation, rx = 155, ry = 59) {
   const x = rx * Math.cos(theta);
@@ -123,6 +144,7 @@ function header(phase) {
   }).join('');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <title>Hi, I'm Krico. AI Safety, LLM Agents and Software Security.</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b19"/><stop offset="0.55" stop-color="#160b27"/><stop offset="1" stop-color="#071e2b"/></linearGradient>
     <linearGradient id="neon"><stop stop-color="${cyan}"/><stop offset="0.5" stop-color="${colors[1]}"/><stop offset="1" stop-color="${pink}"/></linearGradient>
@@ -147,17 +169,22 @@ function header(phase) {
   <path d="M950 140 L974 151 V170 Q974 187 950 200 Q926 187 926 170 V151Z" fill="${cyan}" fill-opacity="0.07" stroke="url(#neon)" stroke-width="2"/>
   <path d="M939 169 L947 177 L962 160" fill="none" stroke="#c0faff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
   <g font-family="Consolas, Liberation Mono, monospace">
-    <path d="M54 42H82" stroke="url(#neon)" stroke-width="3"/>
+    <path d="M54 42H82" stroke="${cyan}" stroke-width="3"/>
     <text x="96" y="48" fill="#98eaff" font-size="17">Krico / Kirito14IT</text>
-    <text x="50.7" y="144" fill="${cyan}" opacity="0.25" font-size="68" font-weight="700" letter-spacing="-3">Zhihua Wang</text>
-    <text x="53.3" y="144" fill="${pink}" opacity="0.25" font-size="68" font-weight="700" letter-spacing="-3">Zhihua Wang</text>
-    <text x="52" y="144" fill="#f4f1ff" font-size="68" font-weight="700" letter-spacing="-3">Zhihua Wang</text>
+    <text x="50.7" y="144" fill="${cyan}" opacity="0.25" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Krico</text>
+    <text x="53.3" y="144" fill="${pink}" opacity="0.25" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Krico</text>
+    <text x="52" y="144" fill="#f4f1ff" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Krico</text>
     <text x="56" y="188" fill="#b6bbda" font-size="20">AI Safety / LLM Agents / Software Security</text>
     <rect x="56" y="224" width="235" height="32" rx="16" fill="#a879ff" fill-opacity="0.11" stroke="url(#neon)" stroke-opacity="0.65"/>
     <circle cx="73" cy="240" r="3" fill="${cyan}"/>
     <text x="85" y="245" fill="#d6caff" font-size="14">Fudan University / 2027</text>
-    <path d="M56 278H370" stroke="url(#neon)" stroke-opacity="0.45"/>
+    <path d="M56 278H370" stroke="${pink}" stroke-opacity="0.32"/>
   </g>
+  <g transform="rotate(${(3 * Math.sin(phase)).toFixed(2)} 562 118)">
+    <image href="${emoji.handshake}" x="522" y="78" width="80" height="80"/>
+  </g>
+  <image href="${emoji.sparkle}" x="617" y="${84 + 3 * Math.sin(phase)}" width="34" height="34" opacity="${0.8 + 0.2 * Math.cos(phase)}"/>
+  <image href="${emoji.planet}" x="302" y="${23 + 2 * Math.sin(phase)}" width="30" height="30"/>
   ${waves(phase, 304, 12, 5)}
   <rect width="1200" height="360" rx="18" fill="url(#scan)"/>
   </svg>`;
@@ -179,7 +206,7 @@ async function main() {
   for (const kind of ['header', 'footer']) {
     await fs.mkdir(path.join(output, kind), { recursive: true });
   }
-  await fs.writeFile(path.join(assets, 'research-orbit-neon.svg'), header(0));
+  await fs.writeFile(path.join(assets, 'research-greeting-neon.svg'), header(0));
   await sharp(Buffer.from(header(0))).png().toFile(path.join(output, 'poster.png'));
   for (let i = 0; i < frameCount; i++) {
     const phase = i / frameCount * tau;

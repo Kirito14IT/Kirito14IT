@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://kirito14it.github.io/">
-    <img src="https://kirito14it.github.io/github-profile/research-orbit-neon.gif" width="1200" alt="Zhihua Wang / Krico. AI Safety, LLM Agents, Software Security. Animated multicolor neon network, orbital trails and flowing signals." />
+    <img src="https://kirito14it.github.io/github-profile/research-greeting-neon.gif" width="1200" alt="Hi, I'm Krico. Handshake, sparkles and a planet on an animated multicolor neon network. AI Safety, LLM Agents, Software Security." />
   </a>
 </p>
 
@@ -8,49 +8,49 @@
   <strong>Zhihua Wang</strong><br />
   Senior Undergraduate in Computer Science and Technology<br />
   University of Shanghai for Science and Technology<br /><br />
-  <strong>Incoming M.Sc. Student, Fudan University (2027)</strong><br />
-  Advisor: <a href="http://xingjunma.com/">Xingjun Ma</a><br />
-  Lab: <a href="https://fvl.fudan.edu.cn/" title="Fudan Vision and Learning Laboratory">Fudan FVL</a>
+  &#x1F393; <strong>Incoming M.Sc. Student, Fudan University (2027)</strong><br />
+  &#x1F468;&#x200D;&#x1F3EB; Advisor: <a href="http://xingjunma.com/">Xingjun Ma</a><br />
+  &#x1F9EA; Lab: <a href="https://fvl.fudan.edu.cn/" title="Fudan Vision and Learning Laboratory">Fudan FVL</a>
 </p>
 
 <p align="center">
   <a href="https://kirito14it.github.io/" target="_blank">
-    <img alt="Academic Homepage" src="https://img.shields.io/badge/Academic%20Homepage-Krico-00B8CF?style=for-the-badge&labelColor=0B1726&logo=githubpages&logoColor=white" />
+    <img alt="Academic Homepage" src="https://kirito14it.github.io/github-profile/academic-homepage-neon.svg" width="260" height="44" />
   </a>
   <a href="https://scholar.google.com/citations?user=MyweXYYAAAAJ" target="_blank">
-    <img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-Krico-9457EB?style=for-the-badge&labelColor=0B1726&logo=googlescholar&logoColor=white" />
+    <img alt="Google Scholar" src="https://kirito14it.github.io/github-profile/google-scholar-neon.svg" width="232" height="44" />
   </a>
   <a href="mailto:2657751462@qq.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-Contact-EA408B?style=for-the-badge&labelColor=0B1726&logo=gmail&logoColor=white" />
+    <img alt="Email" src="https://kirito14it.github.io/github-profile/email-neon.svg" width="156" height="44" />
   </a>
 </p>
 
 <p align="center">
-  I build research prototypes around <strong>AI safety</strong>, <strong>LLM agents</strong>,
+  &#x1F916; I build research prototypes around <strong>AI safety</strong>, <strong>LLM agents</strong>,
   <strong>software security analysis</strong>, and reliable multimodal systems.
 </p>
 
 ---
 
-### Research Focus
+### &#x1F9E0; Research Focus
 
-- AI safety and runtime governance for LLM agents.
-- Multi-agent reinforcement learning for safety-constrained code generation.
-- CodeQL-assisted software security analysis.
-- Efficient neural models for visual correspondence pruning.
+- &#x1F6E1;&#xFE0F; AI safety and runtime governance for LLM agents.
+- &#x1F91D; Multi-agent reinforcement learning for safety-constrained code generation.
+- &#x1F50D; CodeQL-assisted software security analysis.
+- &#x1F441;&#xFE0F; Efficient neural models for visual correspondence pruning.
 
-### Selected Work
+### &#x1F680; Selected Work
 
 | Project | Research focus |
 | :--- | :--- |
-| [**XSafeClaw**](https://github.com/XSafeAI/XSafeClaw) | Agent runtime safety and governance |
-| [**VulnSeeker**](https://github.com/Kirito14IT/VulnSeeker) | CodeQL and LLM-assisted vulnerability analysis |
-| [**SFMambaNet**](https://github.com/Kirito14IT/SFMambaNet) | Spectral-frequency state space models for correspondence pruning |
+| &#x1F6E1;&#xFE0F; [**XSafeClaw**](https://github.com/XSafeAI/XSafeClaw) | Agent runtime safety and governance |
+| &#x1F50D; [**VulnSeeker**](https://github.com/Kirito14IT/VulnSeeker) | CodeQL and LLM-assisted vulnerability analysis |
+| &#x1F441;&#xFE0F; [**SFMambaNet**](https://github.com/Kirito14IT/SFMambaNet) | Spectral-frequency state space models for correspondence pruning |
 
 <p align="center">
   <a href="https://kirito14it.github.io/">Academic Homepage</a> &middot;
   <a href="https://scholar.google.com/citations?user=MyweXYYAAAAJ">Google Scholar</a> &middot;
-  <a href="https://arxiv.org/abs/2606.04493">SFMambaNet Paper</a> &middot;
+  <a href="https://arxiv.org/abs/2606.04493">&#x1F4C4; SFMambaNet Paper</a> &middot;
   <a href="mailto:2657751462@qq.com">Email</a>
 </p>
 

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="44" viewBox="0 0 260 44" role="img" aria-label="Academic Homepage">
+  <title>Academic Homepage</title>
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="0.9"><stop stop-color="#087e9b"/><stop offset="1" stop-color="#2262dc"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="white" stop-opacity="0.2"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#b1f6ff"/><stop offset="0.55" stop-color="#f5c5ff"/><stop offset="1" stop-color="#ffc7ba"/></linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="259" height="43" rx="10" fill="url(#face)"/>
+  <rect x="0.5" y="0.5" width="259" height="22" rx="10" fill="url(#shine)"/>
+  <rect x="1" y="1" width="258" height="42" rx="9.5" fill="none" stroke="url(#edge)" stroke-opacity="0.7"/>
+  <path d="M12 41H248" stroke="white" stroke-opacity="0.13"/>
+  <circle cx="25" cy="22" r="16" fill="white" fill-opacity="0.1"/>
+  <g transform="translate(13 10)" fill="none" stroke="white" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.2"/>
+  <ellipse cx="12" cy="12" rx="4.2" ry="9.2"/>
+  <path d="M3 12H21M4.6 6.9Q12 10 19.4 6.9M4.6 17.1Q12 14 19.4 17.1"/></g>
+  <text x="50" y="27.5" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">Academic Homepage</text>
+  <path d="M237 25L244 18M237 18H244V25" fill="none" stroke="white" stroke-width="1.6" stroke-opacity="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
