@@ -10,7 +10,7 @@
   University of Shanghai for Science and Technology<br /><br />
   &#x1F393; <strong>Incoming M.Sc. Student, Fudan University (2027)</strong><br />
   &#x1F468;&#x200D;&#x1F3EB; Advisor: <a href="http://xingjunma.com/">Xingjun Ma</a><br />
-  &#x1F9EA; Lab: <a href="https://fvl.fudan.edu.cn/" title="Fudan Vision and Learning Laboratory">Fudan FVL</a>
+  &#x1F9EA; Lab: <a href="https://fvl.fudan.edu.cn/" title="Fudan Vision and Learning Laboratory">Fudan FVL</a> &amp; <a href="https://teai.fudan.edu.cn/#/">Fudan TEAI</a>
 </p>
 
 <p align="center">
