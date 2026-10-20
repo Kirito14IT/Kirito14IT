@@ -40,6 +40,13 @@
 | &#x1F6E1;&#xFE0F; [**XSafeClaw**](https://github.com/XSafeAI/XSafeClaw) | Agent runtime safety and governance |
 | &#x1F50D; [**VulnSeeker**](https://github.com/Kirito14IT/VulnSeeker) | CodeQL and LLM-assisted vulnerability analysis |
 | &#x1F441;&#xFE0F; [**SFMambaNet**](https://github.com/Kirito14IT/SFMambaNet) | Spectral-frequency state space models for correspondence pruning |
+### &#x1F6E0;&#xFE0F; Field Notes
+
+Write-ups from real debugging sessions, kept public so the next person hitting the same wall can find them by search.
+
+| Note | What it covers |
+| :--- | :--- |
+| &#x1F9E9; [**ChatGPT / Codex &#x684C;&#x9762;&#x7AEF;&#x300C;&#x65E0;&#x6CD5;&#x66F4;&#x65B0;&#x8FDC;&#x7A0B;&#x63A7;&#x5236;&#x72B6;&#x6001;&#x300D;**](https://github.com/Kirito14IT/chatgpt-codex-windows-remote-control-proxy-fix) | Windows remote-control toggle fails: DNS poisoning, `os error 10060`, proxy env vars, Clash Verge / mihomo TUN, Wintun driver, with one-click diagnostic scripts |
 
 <p align="center">
   <a href="https://kirito14it.github.io/">Academic Homepage</a> &middot;
