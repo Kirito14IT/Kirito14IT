@@ -144,7 +144,7 @@ function header(phase) {
   }).join('');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
-  <title>Hi, I'm Krico. AI Safety, LLM Agents and Software Security.</title>
+  <title>Hi, I'm Carey. Trustworthy AI, LLM Agents and Software Security.</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b19"/><stop offset="0.55" stop-color="#160b27"/><stop offset="1" stop-color="#071e2b"/></linearGradient>
     <linearGradient id="neon"><stop stop-color="${cyan}"/><stop offset="0.5" stop-color="${colors[1]}"/><stop offset="1" stop-color="${pink}"/></linearGradient>
@@ -170,11 +170,11 @@ function header(phase) {
   <path d="M939 169 L947 177 L962 160" fill="none" stroke="#c0faff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
   <g font-family="Consolas, Liberation Mono, monospace">
     <path d="M54 42H82" stroke="${cyan}" stroke-width="3"/>
-    <text x="96" y="48" fill="#98eaff" font-size="17">Krico / Kirito14IT</text>
-    <text x="50.7" y="144" fill="${cyan}" opacity="0.25" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Krico</text>
-    <text x="53.3" y="144" fill="${pink}" opacity="0.25" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Krico</text>
-    <text x="52" y="144" fill="#f4f1ff" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Krico</text>
-    <text x="56" y="188" fill="#b6bbda" font-size="20">AI Safety / LLM Agents / Software Security</text>
+    <text x="96" y="48" fill="#98eaff" font-size="17">Carey / Kirito14IT</text>
+    <text x="50.7" y="144" fill="${cyan}" opacity="0.25" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Carey</text>
+    <text x="53.3" y="144" fill="${pink}" opacity="0.25" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Carey</text>
+    <text x="52" y="144" fill="#f4f1ff" font-size="64" font-weight="700" letter-spacing="-3">Hi, I'm Carey</text>
+    <text x="56" y="188" fill="#b6bbda" font-size="20">Trustworthy AI / LLM Agents / Software Security</text>
     <rect x="56" y="224" width="235" height="32" rx="16" fill="#a879ff" fill-opacity="0.11" stroke="url(#neon)" stroke-opacity="0.65"/>
     <circle cx="73" cy="240" r="3" fill="${cyan}"/>
     <text x="85" y="245" fill="#d6caff" font-size="14">Fudan University / 2027</text>
@@ -206,7 +206,7 @@ async function main() {
   for (const kind of ['header', 'footer']) {
     await fs.mkdir(path.join(output, kind), { recursive: true });
   }
-  await fs.writeFile(path.join(assets, 'research-greeting-neon.svg'), header(0));
+  await fs.writeFile(path.join(assets, 'research-greeting-carey-neon.svg'), header(0));
   await sharp(Buffer.from(header(0))).png().toFile(path.join(output, 'poster.png'));
   for (let i = 0; i < frameCount; i++) {
     const phase = i / frameCount * tau;

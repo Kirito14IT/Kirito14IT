@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://kirito14it.github.io/">
-    <img src="https://kirito14it.github.io/github-profile/research-greeting-neon.gif" width="1200" alt="Hi, I'm Krico. Handshake, sparkles and a planet on an animated multicolor neon network. AI Safety, LLM Agents, Software Security." />
+    <img src="https://kirito14it.github.io/github-profile/research-greeting-carey-neon.gif" width="1200" alt="Hi, I'm Carey. Handshake, sparkles and a planet on an animated multicolor neon network. Trustworthy AI, LLM Agents, Software Security." />
   </a>
 </p>
 
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  &#x1F916; I build research prototypes around <strong>AI safety</strong>, <strong>LLM agents</strong>,
+  &#x1F916; I build research prototypes around <strong>trustworthy AI</strong>, <strong>LLM agents</strong>,
   <strong>software security analysis</strong>, and reliable multimodal systems.
 </p>
 
@@ -28,7 +28,7 @@
 
 ### &#x1F9E0; Research Focus
 
-- &#x1F6E1;&#xFE0F; AI safety and runtime governance for LLM agents.
+- &#x1F6E1;&#xFE0F; Trustworthy AI and runtime governance for LLM agents.
 - &#x1F91D; Multi-agent reinforcement learning for safety-constrained code generation.
 - &#x1F50D; CodeQL-assisted software security analysis.
 - &#x1F441;&#xFE0F; Efficient neural models for visual correspondence pruning.
