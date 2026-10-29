@@ -35,11 +35,13 @@
 
 ### &#x1F680; Selected Work
 
-| Project | Research focus |
+| Project | Focus |
 | :--- | :--- |
+| &#x1F525; [**AISafetyHot**](https://github.com/wuyoscar/AISafetyHot) | AI safety news and research monitoring |
 | &#x1F6E1;&#xFE0F; [**XSafeClaw**](https://github.com/XSafeAI/XSafeClaw) | Agent runtime safety and governance |
+| &#x1F577;&#xFE0F; [**prompt-spider-ui**](https://github.com/Kirito14IT/prompt-spider-ui) | Interactive agent visualization with Canvas 2D and MCP integration |
 | &#x1F50D; [**VulnSeeker**](https://github.com/Kirito14IT/VulnSeeker) | CodeQL and LLM-assisted vulnerability analysis |
-| &#x1F441;&#xFE0F; [**SFMambaNet**](https://github.com/Kirito14IT/SFMambaNet) | Spectral-frequency state space models for correspondence pruning |
+
 ### &#x1F6E0;&#xFE0F; Field Notes
 
 Write-ups from real debugging sessions, kept public so the next person hitting the same wall can find them by search.
