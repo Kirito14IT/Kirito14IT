@@ -37,6 +37,7 @@
 
 | Project | Focus |
 | :--- | :--- |
+| &#x1F310; [**ScamWeb**](https://github.com/Kirito14IT/ScamWeb) &middot; [Hugging Face](https://huggingface.co/datasets/kirco567/ScamWeb-Dataset) | Multimodal benchmark for grounded understanding of fraud webpages |
 | &#x1F525; [**AISafetyHot**](https://github.com/wuyoscar/AISafetyHot) | AI safety news and research monitoring |
 | &#x1F6E1;&#xFE0F; [**XSafeClaw**](https://github.com/XSafeAI/XSafeClaw) | Agent runtime safety and governance |
 | &#x1F577;&#xFE0F; [**prompt-spider-ui**](https://github.com/Kirito14IT/prompt-spider-ui) | Interactive agent visualization with Canvas 2D and MCP integration |
