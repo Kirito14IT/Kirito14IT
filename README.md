@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://kirito14it.github.io/">
-    <img src="https://kirito14it.github.io/github-profile/research-greeting-carey-neon.gif" width="1200" alt="Hi, I'm Carey. Handshake, sparkles and a planet on an animated multicolor neon network. Trustworthy AI, LLM Agents, Software Security." />
+    <img src="https://kirito14it.github.io/github-profile/research-greeting-carey-neon.gif?v=58fd681b" width="1200" alt="Hi, I'm Carey. Foundation Models / Coding Agents / Agent RL / Trustworthy AI." />
   </a>
 </p>
 
